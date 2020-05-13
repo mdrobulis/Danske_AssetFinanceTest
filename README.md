@@ -13,14 +13,20 @@ the bottom. If there are multiple paths giving the same sum, you can choose any 
 
 # Usage 
 
+In project root execute these shell commands.
+
 ``` sh
 nuget restore
 dotnet run -p AssetFinance/ input.txt
 ```
 
+Requirement:
+.Net Core v3.1
+
 
 # Sample 
 
+``` txt
 Sample Input:
 1
 8 9
@@ -29,9 +35,11 @@ Sample Input:
 Output:
 Max sum: 16
 Path: 1, 8, 5, 2
+```
 
 # Real imput 
 
+``` txt
 215
 192 124
 117 269 442
@@ -47,7 +55,7 @@ Path: 1, 8, 5, 2
 131 171 522 137 217 224 291 413 528 520 227 229 928
 223 626 034 683 839 052 627 310 713 999 629 817 410 121
 924 622 911 233 325 139 721 218 253 223 107 233 230 124 233
-
+```
 
 # TODO
 
